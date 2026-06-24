@@ -252,13 +252,6 @@ docker ps
 | Prometheus      | http://localhost:9090         |
 | Grafana         | http://localhost:3000         |
 
-### Grafana Credentials
-
-```
-Username: admin
-Password: admin
-```
-
 ---
 
 # 📊 Monitoring Stack
