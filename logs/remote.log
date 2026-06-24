@@ -1,0 +1,538 @@
+Jun 23 09:45:22 2f2def0bcbaf : environment variable TZ is not set, auto correcting this to TZ=UTC [v8.2004.0 try https://www.rsyslog.com/e/2442 ]
+Jun 23 09:45:22 2f2def0bcbaf : imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Jun 23 09:45:22 2f2def0bcbaf : activation of module imklog failed [v8.2004.0 try https://www.rsyslog.com/e/2145 ]
+Jun 23 09:45:22 2f2def0bcbaf : [origin software="rsyslogd" swVersion="8.2004.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+Jun 23 09:45:57 myhost test-app: Hello from logging pipeline test 3
+Jun 23 09:49:21 172.23.0.1 postgres-master[1743]: 2026-06-23 09:49:21.817 UTC [27] LOG:  checkpoint starting: time
+Jun 23 09:49:28 172.23.0.1 postgres-master[1743]: 2026-06-23 09:49:28.052 UTC [27] LOG:  checkpoint complete: wrote 63 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.215 s, sync=0.015 s, total=6.235 s; sync files=7, longest=0.012 s, average=0.003 s; distance=140 kB, estimate=4700 kB
+Jun 23 09:54:21 172.23.0.1 postgres-master[1743]: 2026-06-23 09:54:21.152 UTC [27] LOG:  checkpoint starting: time
+Jun 23 09:54:27 172.23.0.1 postgres-master[1743]: 2026-06-23 09:54:27.693 UTC [27] LOG:  checkpoint complete: wrote 67 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.522 s, sync=0.002 s, total=6.542 s; sync files=6, longest=0.001 s, average=0.001 s; distance=150 kB, estimate=4245 kB
+Jun 23 09:59:21 172.23.0.1 postgres-master[1743]: 2026-06-23 09:59:21.718 UTC [27] LOG:  checkpoint starting: time
+Jun 23 09:59:25 172.23.0.1 postgres-master[1743]: 2026-06-23 09:59:25.366 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.615 s, sync=0.015 s, total=3.648 s; sync files=4, longest=0.012 s, average=0.004 s; distance=106 kB, estimate=3831 kB
+Jun 23 10:04:21 172.23.0.1 postgres-master[1743]: 2026-06-23 10:04:21.466 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:04:26 172.23.0.1 postgres-master[1743]: 2026-06-23 10:04:26.809 UTC [27] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.321 s, sync=0.004 s, total=5.343 s; sync files=6, longest=0.002 s, average=0.001 s; distance=146 kB, estimate=3462 kB
+Jun 23 10:09:21 172.23.0.1 postgres-master[1743]: 2026-06-23 10:09:21.906 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:09:28 172.23.0.1 postgres-master[1743]: 2026-06-23 10:09:28.266 UTC [27] LOG:  checkpoint complete: wrote 64 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.326 s, sync=0.017 s, total=6.360 s; sync files=6, longest=0.012 s, average=0.003 s; distance=177 kB, estimate=3134 kB
+Jun 23 10:19:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:19:25.039 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:19:31 172.23.0.1 postgres-master[1743]: 2026-06-23 10:19:31.781 UTC [27] LOG:  checkpoint complete: wrote 68 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.724 s, sync=0.003 s, total=6.743 s; sync files=7, longest=0.002 s, average=0.001 s; distance=164 kB, estimate=2837 kB
+Jun 23 10:24:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:24:25.878 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:24:32 172.23.0.1 postgres-master[1743]: 2026-06-23 10:24:32.528 UTC [27] LOG:  checkpoint complete: wrote 67 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.631 s, sync=0.003 s, total=6.650 s; sync files=7, longest=0.002 s, average=0.001 s; distance=210 kB, estimate=2574 kB
+Jun 23 10:29:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:29:25.628 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:29:29 172.23.0.1 postgres-master[1743]: 2026-06-23 10:29:29.269 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.622 s, sync=0.003 s, total=3.641 s; sync files=4, longest=0.002 s, average=0.001 s; distance=138 kB, estimate=2331 kB
+Jun 23 10:34:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:34:25.366 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:34:31 172.23.0.1 postgres-master[1743]: 2026-06-23 10:34:31.806 UTC [27] LOG:  checkpoint complete: wrote 66 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.421 s, sync=0.003 s, total=6.441 s; sync files=6, longest=0.002 s, average=0.001 s; distance=222 kB, estimate=2120 kB
+Jun 23 10:39:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:39:25.906 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:39:29 172.23.0.1 postgres-master[1743]: 2026-06-23 10:39:29.548 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.612 s, sync=0.015 s, total=3.642 s; sync files=4, longest=0.013 s, average=0.004 s; distance=145 kB, estimate=1922 kB
+Jun 23 10:44:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:44:25.625 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:44:31 172.23.0.1 postgres-master[1743]: 2026-06-23 10:44:31.780 UTC [27] LOG:  checkpoint complete: wrote 62 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.123 s, sync=0.015 s, total=6.156 s; sync files=6, longest=0.012 s, average=0.003 s; distance=233 kB, estimate=1753 kB
+Jun 23 10:49:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:49:25.867 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:49:29 172.23.0.1 postgres-master[1743]: 2026-06-23 10:49:29.510 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.612 s, sync=0.015 s, total=3.643 s; sync files=4, longest=0.012 s, average=0.004 s; distance=161 kB, estimate=1594 kB
+Jun 23 10:54:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:54:25.610 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:54:31 172.23.0.1 postgres-master[1743]: 2026-06-23 10:54:31.243 UTC [27] LOG:  checkpoint complete: wrote 57 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.616 s, sync=0.001 s, total=5.633 s; sync files=6, longest=0.001 s, average=0.001 s; distance=238 kB, estimate=1458 kB
+Jun 23 10:59:25 172.23.0.1 postgres-master[1743]: 2026-06-23 10:59:25.341 UTC [27] LOG:  checkpoint starting: time
+Jun 23 10:59:32 172.23.0.1 postgres-master[1743]: 2026-06-23 10:59:32.200 UTC [27] LOG:  checkpoint complete: wrote 69 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.825 s, sync=0.016 s, total=6.859 s; sync files=7, longest=0.012 s, average=0.003 s; distance=221 kB, estimate=1335 kB
+Jun 23 11:04:25 172.23.0.1 postgres-master[1743]: 2026-06-23 11:04:25.300 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:04:29 172.23.0.1 postgres-master[1743]: 2026-06-23 11:04:29.043 UTC [27] LOG:  checkpoint complete: wrote 38 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.713 s, sync=0.015 s, total=3.744 s; sync files=5, longest=0.012 s, average=0.003 s; distance=177 kB, estimate=1219 kB
+Jun 23 11:09:25 172.23.0.1 postgres-master[1743]: 2026-06-23 11:09:25.144 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:09:31 172.23.0.1 postgres-master[1743]: 2026-06-23 11:09:31.490 UTC [27] LOG:  checkpoint complete: wrote 65 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.323 s, sync=0.016 s, total=6.347 s; sync files=7, longest=0.011 s, average=0.003 s; distance=290 kB, estimate=1126 kB
+Jun 23 11:12:21 myhost test-app: Live streaming check 1782213141
+Jun 23 11:14:25 172.23.0.1 postgres-master[1743]: 2026-06-23 11:14:25.571 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:14:29 172.23.0.1 postgres-master[1743]: 2026-06-23 11:14:29.210 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.616 s, sync=0.005 s, total=3.639 s; sync files=4, longest=0.005 s, average=0.002 s; distance=189 kB, estimate=1032 kB
+Jun 23 11:16:42 myhost test-app: checking checking logs baby 1782213402
+Jun 23 11:19:25 172.23.0.1 postgres-master[1743]: 2026-06-23 11:19:25.310 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:19:28 172.23.0.1 postgres-master[1743]: 2026-06-23 11:19:28.926 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.611 s, sync=0.002 s, total=3.617 s; sync files=4, longest=0.002 s, average=0.001 s; distance=197 kB, estimate=949 kB
+Jun 23 11:24:26 172.23.0.1 postgres-master[1743]: 2026-06-23 11:24:26.011 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:24:32 172.23.0.1 postgres-master[1743]: 2026-06-23 11:24:32.369 UTC [27] LOG:  checkpoint complete: wrote 64 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.323 s, sync=0.015 s, total=6.359 s; sync files=6, longest=0.012 s, average=0.003 s; distance=321 kB, estimate=886 kB
+Jun 23 11:29:26 172.23.0.1 postgres-master[1743]: 2026-06-23 11:29:26.467 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:29:30 172.23.0.1 postgres-master[1743]: 2026-06-23 11:29:30.111 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.612 s, sync=0.015 s, total=3.644 s; sync files=4, longest=0.013 s, average=0.004 s; distance=199 kB, estimate=817 kB
+Jun 23 11:42:39 172.23.0.1 postgres-master[1743]: 2026-06-23 11:42:39.104 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:42:42 172.23.0.1 postgres-master[1743]: 2026-06-23 11:42:42.531 UTC [27] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.409 s, sync=0.002 s, total=3.427 s; sync files=4, longest=0.001 s, average=0.001 s; distance=207 kB, estimate=756 kB
+Jun 23 11:47:39 172.23.0.1 postgres-master[1743]: 2026-06-23 11:47:39.591 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:47:45 172.23.0.1 postgres-master[1743]: 2026-06-23 11:47:45.938 UTC [27] LOG:  checkpoint complete: wrote 65 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.316 s, sync=0.015 s, total=6.348 s; sync files=6, longest=0.013 s, average=0.003 s; distance=359 kB, estimate=717 kB
+Jun 23 11:52:40 172.23.0.1 postgres-master[1743]: 2026-06-23 11:52:40.001 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:52:43 172.23.0.1 postgres-master[1743]: 2026-06-23 11:52:43.543 UTC [27] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.509 s, sync=0.015 s, total=3.542 s; sync files=4, longest=0.012 s, average=0.004 s; distance=216 kB, estimate=667 kB
+Jun 23 11:57:40 172.23.0.1 postgres-master[1743]: 2026-06-23 11:57:40.619 UTC [27] LOG:  checkpoint starting: time
+Jun 23 11:57:47 172.23.0.1 postgres-master[1743]: 2026-06-23 11:57:47.462 UTC [27] LOG:  checkpoint complete: wrote 69 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.826 s, sync=0.002 s, total=6.844 s; sync files=7, longest=0.001 s, average=0.001 s; distance=334 kB, estimate=633 kB
+Jun 23 12:02:40 172.23.0.1 postgres-master[1743]: 2026-06-23 12:02:40.474 UTC [27] LOG:  checkpoint starting: time
+Jun 23 12:02:44 172.23.0.1 postgres-master[1743]: 2026-06-23 12:02:44.195 UTC [27] LOG:  checkpoint complete: wrote 38 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.715 s, sync=0.001 s, total=3.721 s; sync files=5, longest=0.001 s, average=0.001 s; distance=235 kB, estimate=593 kB
+Jun 23 12:07:40 172.23.0.1 postgres-master[1743]: 2026-06-23 12:07:40.294 UTC [27] LOG:  checkpoint starting: time
+Jun 23 12:07:45 172.23.0.1 postgres-master[1743]: 2026-06-23 12:07:45.645 UTC [27] LOG:  checkpoint complete: wrote 54 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.319 s, sync=0.015 s, total=5.351 s; sync files=7, longest=0.012 s, average=0.003 s; distance=321 kB, estimate=566 kB
+Jun 23 12:12:40 172.23.0.1 postgres-master[1743]: 2026-06-23 12:12:40.746 UTC [27] LOG:  checkpoint starting: time
+Jun 23 12:12:44 172.23.0.1 postgres-master[1743]: 2026-06-23 12:12:44.073 UTC [27] LOG:  checkpoint complete: wrote 34 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.309 s, sync=0.002 s, total=3.328 s; sync files=4, longest=0.002 s, average=0.001 s; distance=236 kB, estimate=533 kB
+Jun 23 12:17:40 172.23.0.1 postgres-master[1743]: 2026-06-23 12:17:40.166 UTC [27] LOG:  checkpoint starting: time
+Jun 23 12:17:44 172.23.0.1 postgres-master[1743]: 2026-06-23 12:17:44.104 UTC [27] LOG:  checkpoint complete: wrote 40 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.916 s, sync=0.003 s, total=3.938 s; sync files=5, longest=0.002 s, average=0.001 s; distance=274 kB, estimate=507 kB
+Jun 23 12:22:40 172.23.0.1 postgres-master[1743]: 2026-06-23 12:22:40.201 UTC [27] LOG:  checkpoint starting: time
+Jun 23 12:22:46 172.23.0.1 postgres-master[1743]: 2026-06-23 12:22:46.141 UTC [27] LOG:  checkpoint complete: wrote 61 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.922 s, sync=0.002 s, total=5.941 s; sync files=7, longest=0.002 s, average=0.001 s; distance=388 kB, estimate=495 kB
+Jun 23 12:27:40 172.23.0.1 postgres-master[1743]: 2026-06-23 12:27:40.171 UTC [27] LOG:  checkpoint starting: time
+Jun 23 12:27:44 172.23.0.1 postgres-master[1743]: 2026-06-23 12:27:44.001 UTC [27] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.811 s, sync=0.015 s, total=3.831 s; sync files=5, longest=0.013 s, average=0.003 s; distance=256 kB, estimate=471 kB
+Jun 23 16:20:31 172.23.0.1 postgres-master[1743]: 2026-06-23 16:20:31.457 UTC [27] LOG:  checkpoint starting: time
+Jun 23 16:20:35 172.23.0.1 postgres-master[1743]: 2026-06-23 16:20:35.278 UTC [27] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.814 s, sync=0.003 s, total=3.821 s; sync files=5, longest=0.002 s, average=0.001 s; distance=262 kB, estimate=451 kB
+Jun 23 16:25:31 172.23.0.1 postgres-master[1743]: 2026-06-23 16:25:31.370 UTC [27] LOG:  checkpoint starting: time
+Jun 23 16:25:34 172.23.0.1 postgres-master[1743]: 2026-06-23 16:25:34.817 UTC [27] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.414 s, sync=0.015 s, total=3.448 s; sync files=4, longest=0.012 s, average=0.004 s; distance=263 kB, estimate=432 kB
+Jun 23 16:30:31 172.23.0.1 postgres-master[1743]: 2026-06-23 16:30:31.889 UTC [27] LOG:  checkpoint starting: time
+Jun 23 16:30:35 172.23.0.1 postgres-master[1743]: 2026-06-23 16:30:35.934 UTC [27] LOG:  checkpoint complete: wrote 41 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.019 s, sync=0.016 s, total=4.046 s; sync files=5, longest=0.011 s, average=0.004 s; distance=297 kB, estimate=418 kB
+Jun 23 16:35:32 172.23.0.1 postgres-master[1743]: 2026-06-23 16:35:32.034 UTC [27] LOG:  checkpoint starting: time
+Jun 23 16:35:37 172.23.0.1 postgres-master[1743]: 2026-06-23 16:35:37.157 UTC [27] LOG:  checkpoint complete: wrote 52 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.115 s, sync=0.003 s, total=5.123 s; sync files=7, longest=0.002 s, average=0.001 s; distance=369 kB, estimate=413 kB
+Jun 23 16:40:32 172.23.0.1 postgres-master[1743]: 2026-06-23 16:40:32.256 UTC [27] LOG:  checkpoint starting: time
+Jun 23 16:40:36 172.23.0.1 postgres-master[1743]: 2026-06-23 16:40:36.199 UTC [27] LOG:  checkpoint complete: wrote 40 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.912 s, sync=0.015 s, total=3.943 s; sync files=5, longest=0.012 s, average=0.003 s; distance=294 kB, estimate=401 kB
+Jun 23 16:45:32 172.23.0.1 postgres-master[1743]: 2026-06-23 16:45:32.298 UTC [27] LOG:  checkpoint starting: time
+Jun 23 16:45:39 172.23.0.1 postgres-master[1743]: 2026-06-23 16:45:39.130 UTC [27] LOG:  checkpoint complete: wrote 70 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.821 s, sync=0.002 s, total=6.832 s; sync files=7, longest=0.001 s, average=0.001 s; distance=356 kB, estimate=397 kB
+Jun 23 16:47:53 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:53.245 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:53 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:53.248 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:53 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:53.270 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Jun 23 16:47:53 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:53.274 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Jun 23 16:47:53 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:53.392 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jun 23 16:47:53 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:53.426 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jun 23 16:47:53 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:53.443 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:53 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:53.466 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:53 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:53.475 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:53 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:53.494 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.879 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.882 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.883 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.890 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.891 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.891 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.891 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 23 16:47:54 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:54.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 23 16:47:54 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:54.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 23 16:47:55 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:55.410 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:55 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:55.418 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:55 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:55.459 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [905] milliseconds
+Jun 23 16:47:55 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:55.464 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [911] milliseconds
+Jun 23 16:47:55 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:55.553 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 23 16:47:55 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:55.553 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 23 16:47:55 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:55.557 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 23 16:47:55 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:55.557 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 23 16:47:55 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:55.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 23 16:47:55 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:55.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 23 16:47:56 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:56.120 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 23 16:47:56 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:56.121 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 23 16:47:56 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:56.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [597] ms
+Jun 23 16:47:56 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:56.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [594] ms
+Jun 23 16:47:56 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:56.171 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:56 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:56.171 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 23 16:47:56 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:47:56.189 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [725] milliseconds
+Jun 23 16:47:56 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:47:56.189 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [729] milliseconds
+Jun 23 16:50:32 172.23.0.1 postgres-master[1743]: 2026-06-23 16:50:32.229 UTC [27] LOG:  checkpoint starting: time
+Jun 23 16:50:35 172.23.0.1 postgres-master[1743]: 2026-06-23 16:50:35.446 UTC [27] LOG:  checkpoint complete: wrote 33 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.209 s, sync=0.003 s, total=3.217 s; sync files=6, longest=0.002 s, average=0.001 s; distance=254 kB, estimate=383 kB
+Jun 23 16:50:37 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:37.282 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:37 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:37.284 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:37 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:37.289 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Jun 23 16:50:37 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:37.290 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Jun 23 16:50:37 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:37.312 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jun 23 16:50:37 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:37.313 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jun 23 16:50:37 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:37.327 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:37 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:37.327 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:37 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:37.340 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:37 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:37.340 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:37 172.23.0.1 tomcat2[1743]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:50:37 172.23.0.1 tomcat1[1743]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.695 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.696 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 23 16:50:38 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:38.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 23 16:50:38 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:38.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.156 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.181 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.198 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [851] milliseconds
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.222 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [876] milliseconds
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.274 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.274 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.302 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.302 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.886 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.900 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [646] ms
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [624] ms
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.940 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.945 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 23 16:50:39 172.23.0.1 tomcat2[1743]: 23-Jun-2026 16:50:39.958 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [759] milliseconds
+Jun 23 16:50:39 172.23.0.1 tomcat1[1743]: 23-Jun-2026 16:50:39.959 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [736] milliseconds
+Jun 23 17:15:26 172.23.0.1 postgres-master[1743]: 2026-06-23 17:15:26.131 UTC [2634] LOG:  terminating walsender process due to replication timeout
+Jun 23 17:15:26 172.23.0.1 postgres-master[1743]: 2026-06-23 17:15:26.131 UTC [2634] STATEMENT:  START_REPLICATION 0/3000000 TIMELINE 1
+Jun 23 17:18:14 172.23.0.1 postgres-master[1743]: 2026-06-23 17:18:14.709 UTC [27] LOG:  checkpoint starting: time
+Jun 23 17:18:17 172.23.0.1 postgres-master[1743]: 2026-06-23 17:18:17.024 UTC [27] LOG:  checkpoint complete: wrote 24 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.309 s, sync=0.003 s, total=2.316 s; sync files=7, longest=0.001 s, average=0.001 s; distance=184 kB, estimate=363 kB
+Jun 23 17:23:14 172.23.0.1 postgres-master[1743]: 2026-06-23 17:23:14.124 UTC [27] LOG:  checkpoint starting: time
+Jun 23 17:23:17 172.23.0.1 postgres-master[1743]: 2026-06-23 17:23:17.945 UTC [27] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.814 s, sync=0.002 s, total=3.821 s; sync files=5, longest=0.001 s, average=0.001 s; distance=88 kB, estimate=335 kB
+Jun 23 17:28:15 172.23.0.1 postgres-master[1743]: 2026-06-23 17:28:15.037 UTC [27] LOG:  checkpoint starting: time
+Jun 23 17:28:18 172.23.0.1 postgres-master[1743]: 2026-06-23 17:28:18.166 UTC [27] LOG:  checkpoint complete: wrote 32 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.118 s, sync=0.002 s, total=3.129 s; sync files=4, longest=0.002 s, average=0.001 s; distance=67 kB, estimate=309 kB
+Jun 23 17:33:16 172.23.0.1 postgres-master[1743]: 2026-06-23 17:33:16.136 UTC [27] LOG:  checkpoint starting: time
+Jun 23 17:33:19 172.23.0.1 postgres-master[1743]: 2026-06-23 17:33:19.257 UTC [27] LOG:  checkpoint complete: wrote 32 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.110 s, sync=0.006 s, total=3.122 s; sync files=4, longest=0.005 s, average=0.002 s; distance=76 kB, estimate=285 kB
+Jun 23 17:38:16 172.23.0.1 postgres-master[1743]: 2026-06-23 17:38:16.357 UTC [27] LOG:  checkpoint starting: time
+Jun 23 17:38:19 172.23.0.1 postgres-master[1743]: 2026-06-23 17:38:19.298 UTC [27] LOG:  checkpoint complete: wrote 30 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.909 s, sync=0.015 s, total=2.941 s; sync files=4, longest=0.012 s, average=0.004 s; distance=83 kB, estimate=265 kB
+Jun 23 17:43:16 172.23.0.1 postgres-master[1743]: 2026-06-23 17:43:16.382 UTC [27] LOG:  checkpoint starting: time
+Jun 23 17:43:19 172.23.0.1 postgres-master[1743]: 2026-06-23 17:43:19.704 UTC [27] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.314 s, sync=0.003 s, total=3.322 s; sync files=6, longest=0.002 s, average=0.001 s; distance=111 kB, estimate=250 kB
+Jun 24 06:27:41 2f2def0bcbaf : environment variable TZ is not set, auto correcting this to TZ=UTC [v8.2004.0 try https://www.rsyslog.com/e/2442 ]
+Jun 24 06:27:41 2f2def0bcbaf : imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Jun 24 06:27:41 2f2def0bcbaf : activation of module imklog failed [v8.2004.0 try https://www.rsyslog.com/e/2145 ]
+Jun 24 06:27:41 2f2def0bcbaf : [origin software="rsyslogd" swVersion="8.2004.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+Jun 24 06:27:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:27:41.413 UTC [1] LOG:  starting PostgreSQL 15.18 on x86_64-pc-linux-musl, compiled by gcc (Alpine 15.2.0) 15.2.0, 64-bit
+Jun 24 06:27:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:27:41.414 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+Jun 24 06:27:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:27:41.414 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+Jun 24 06:27:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:27:41.416 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+Jun 24 06:27:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:27:41.425 UTC [29] LOG:  database system was shut down at 2026-06-23 17:46:32 UTC
+Jun 24 06:27:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:27:41.445 UTC [1] LOG:  database system is ready to accept connections
+Jun 24 06:27:41 172.23.0.1 tomcat2[1738]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 06:27:41 172.23.0.1 tomcat1[1738]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.165 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.218 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.219 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.220 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.222 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 24 06:27:43 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:43.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 24 06:27:43 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:43.232 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 24 06:27:44 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:44.001 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 24 06:27:44 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:44.022 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 24 06:27:44 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:44.068 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1412] milliseconds
+Jun 24 06:27:44 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:44.083 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1427] milliseconds
+Jun 24 06:27:44 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:44.191 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 24 06:27:44 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:44.191 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 24 06:27:44 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:44.205 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 24 06:27:44 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:44.205 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 24 06:27:44 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:44.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 24 06:27:44 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:44.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 24 06:27:45 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:45.008 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 24 06:27:45 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:45.036 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 24 06:27:45 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:45.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [863] ms
+Jun 24 06:27:45 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:45.076 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 24 06:27:45 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:45.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [868] ms
+Jun 24 06:27:45 172.23.0.1 tomcat2[1738]: 24-Jun-2026 06:27:45.097 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1028] milliseconds
+Jun 24 06:27:45 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:45.100 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 24 06:27:45 172.23.0.1 tomcat1[1738]: 24-Jun-2026 06:27:45.120 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1035] milliseconds
+Jun 24 06:32:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:32:41.537 UTC [27] LOG:  checkpoint starting: time
+Jun 24 06:32:44 172.23.0.1 postgres-master[1738]: 2026-06-24 06:32:44.066 UTC [27] LOG:  checkpoint complete: wrote 28 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.516 s, sync=0.004 s, total=2.529 s; sync files=6, longest=0.002 s, average=0.001 s; distance=55 kB, estimate=55 kB
+Jun 24 06:37:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:37:41.166 UTC [27] LOG:  checkpoint starting: time
+Jun 24 06:37:43 172.23.0.1 postgres-master[1738]: 2026-06-24 06:37:43.394 UTC [27] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.208 s, sync=0.015 s, total=2.229 s; sync files=4, longest=0.013 s, average=0.004 s; distance=63 kB, estimate=63 kB
+Jun 24 06:42:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:42:41.462 UTC [27] LOG:  checkpoint starting: time
+Jun 24 06:42:43 172.23.0.1 postgres-master[1738]: 2026-06-24 06:42:43.888 UTC [27] LOG:  checkpoint complete: wrote 25 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.408 s, sync=0.015 s, total=2.427 s; sync files=4, longest=0.010 s, average=0.004 s; distance=81 kB, estimate=81 kB
+Jun 24 06:47:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:47:41.988 UTC [27] LOG:  checkpoint starting: time
+Jun 24 06:47:44 172.23.0.1 postgres-master[1738]: 2026-06-24 06:47:44.412 UTC [27] LOG:  checkpoint complete: wrote 25 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.416 s, sync=0.003 s, total=2.425 s; sync files=4, longest=0.001 s, average=0.001 s; distance=90 kB, estimate=90 kB
+Jun 24 06:52:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:52:41.484 UTC [27] LOG:  checkpoint starting: time
+Jun 24 06:52:44 172.23.0.1 postgres-master[1738]: 2026-06-24 06:52:44.100 UTC [27] LOG:  checkpoint complete: wrote 27 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.609 s, sync=0.003 s, total=2.617 s; sync files=6, longest=0.002 s, average=0.001 s; distance=106 kB, estimate=106 kB
+Jun 24 06:57:41 172.23.0.1 postgres-master[1738]: 2026-06-24 06:57:41.156 UTC [27] LOG:  checkpoint starting: time
+Jun 24 06:57:43 172.23.0.1 postgres-master[1738]: 2026-06-24 06:57:43.596 UTC [27] LOG:  checkpoint complete: wrote 25 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.410 s, sync=0.015 s, total=2.440 s; sync files=4, longest=0.011 s, average=0.004 s; distance=108 kB, estimate=108 kB
+Jun 24 07:02:41 172.23.0.1 postgres-master[1738]: 2026-06-24 07:02:41.615 UTC [27] LOG:  checkpoint starting: time
+Jun 24 07:02:43 172.23.0.1 postgres-master[1738]: 2026-06-24 07:02:43.826 UTC [27] LOG:  checkpoint complete: wrote 24 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.207 s, sync=0.001 s, total=2.212 s; sync files=4, longest=0.001 s, average=0.001 s; distance=115 kB, estimate=115 kB
+Jun 24 07:07:33 172.23.0.1 tomcat1[1738]: 24-Jun-2026 07:07:33.622 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+Jun 24 07:07:33 172.23.0.1 tomcat2[1738]: 24-Jun-2026 07:07:33.624 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+Jun 24 07:07:33 172.23.0.1 tomcat1[1738]: 24-Jun-2026 07:07:33.632 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Jun 24 07:07:33 172.23.0.1 tomcat2[1738]: 24-Jun-2026 07:07:33.635 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+Jun 24 07:07:33 172.23.0.1 tomcat1[1738]: 24-Jun-2026 07:07:33.671 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jun 24 07:07:33 172.23.0.1 tomcat2[1738]: 24-Jun-2026 07:07:33.687 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Jun 24 07:07:33 172.23.0.1 tomcat1[1738]: 24-Jun-2026 07:07:33.700 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+Jun 24 07:07:33 172.23.0.1 tomcat2[1738]: 24-Jun-2026 07:07:33.711 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+Jun 24 07:07:33 172.23.0.1 tomcat1[1738]: 24-Jun-2026 07:07:33.726 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Jun 24 07:07:33 172.23.0.1 tomcat2[1738]: 24-Jun-2026 07:07:33.735 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+Jun 24 07:07:33 172.23.0.1 postgres-master[1738]: 2026-06-24 07:07:33.928 UTC [1] LOG:  received fast shutdown request
+Jun 24 07:07:33 172.23.0.1 postgres-master[1738]: 2026-06-24 07:07:33.929 UTC [1] LOG:  aborting any active transactions
+Jun 24 07:07:33 172.23.0.1 postgres-master[1738]: 2026-06-24 07:07:33.935 UTC [1] LOG:  background worker "logical replication launcher" (PID 32) exited with exit code 1
+Jun 24 07:07:33 172.23.0.1 postgres-master[1738]: 2026-06-24 07:07:33.936 UTC [27] LOG:  shutting down
+Jun 24 07:07:33 172.23.0.1 postgres-master[1738]: 2026-06-24 07:07:33.937 UTC [27] LOG:  checkpoint starting: shutdown immediate
+Jun 24 07:07:33 172.23.0.1 postgres-master[1738]: 2026-06-24 07:07:33.949 UTC [27] LOG:  checkpoint complete: wrote 92 buffers (0.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.002 s, total=0.013 s; sync files=7, longest=0.001 s, average=0.001 s; distance=197 kB, estimate=197 kB
+Jun 24 07:07:33 172.23.0.1 postgres-master[1738]: 2026-06-24 07:07:33.963 UTC [1] LOG:  database system is shut down
+Jun 24 08:59:33 fc711b39721b : environment variable TZ is not set, auto correcting this to TZ=UTC [v8.2004.0 try https://www.rsyslog.com/e/2442 ]
+Jun 24 08:59:33 fc711b39721b : imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Jun 24 08:59:33 fc711b39721b : activation of module imklog failed [v8.2004.0 try https://www.rsyslog.com/e/2145 ]
+Jun 24 08:59:33 fc711b39721b : [origin software="rsyslogd" swVersion="8.2004.0" x-pid="1" x-info="https://www.rsyslog.com"] start
+Jun 24 08:59:33 172.23.0.1 tomcat2[1738]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 08:59:33 172.23.0.1 tomcat1[1738]: NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.856 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.83
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 9 2023 20:57:42 UTC
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.83.0
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.17.0-35-generic
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-amazon-corretto
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.21+9-LTS
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.914 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.924 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.926 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.927 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.929 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.39] using APR version [1.7.2].
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.930 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.931 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+Jun 24 08:59:34 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:34.944 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 24 08:59:34 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:34.944 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g FIPS  21 Apr 2020]
+Jun 24 08:59:35 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:35.894 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 24 08:59:35 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:35.925 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+Jun 24 08:59:35 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:35.971 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1691] milliseconds
+Jun 24 08:59:35 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:35.994 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1716] milliseconds
+Jun 24 08:59:36 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:36.134 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 24 08:59:36 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:36.135 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+Jun 24 08:59:36 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:36.136 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 24 08:59:36 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:36.135 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.83]
+Jun 24 08:59:36 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:36.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 24 08:59:36 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:36.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/ROOT]
+Jun 24 08:59:37 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:37.548 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 24 08:59:37 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:37.555 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 24 08:59:37 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:37.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [1,475] ms
+Jun 24 08:59:37 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:37.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/ROOT] has finished in [1,480] ms
+Jun 24 08:59:37 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:37.652 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 24 08:59:37 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:37.648 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+Jun 24 08:59:37 172.23.0.1 tomcat1[1738]: 24-Jun-2026 08:59:37.712 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1740] milliseconds
+Jun 24 08:59:37 172.23.0.1 tomcat2[1738]: 24-Jun-2026 08:59:37.724 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1729] milliseconds
+Jun 24 09:04:33 172.23.0.1 postgres-master[1738]: 2026-06-24 09:04:33.565 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:04:37 172.23.0.1 postgres-master[1738]: 2026-06-24 09:04:37.294 UTC [27] LOG:  checkpoint complete: wrote 40 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.721 s, sync=0.002 s, total=3.730 s; sync files=6, longest=0.001 s, average=0.001 s; distance=156 kB, estimate=156 kB
+Jun 24 09:09:33 172.23.0.1 postgres-master[1738]: 2026-06-24 09:09:33.388 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:09:37 172.23.0.1 postgres-master[1738]: 2026-06-24 09:09:37.021 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.614 s, sync=0.015 s, total=3.634 s; sync files=4, longest=0.013 s, average=0.004 s; distance=167 kB, estimate=167 kB
+Jun 24 09:14:33 172.23.0.1 postgres-master[1738]: 2026-06-24 09:14:33.121 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:14:36 172.23.0.1 postgres-master[1738]: 2026-06-24 09:14:36.754 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.612 s, sync=0.016 s, total=3.633 s; sync files=4, longest=0.012 s, average=0.004 s; distance=182 kB, estimate=182 kB
+Jun 24 09:19:33 172.23.0.1 postgres-master[1738]: 2026-06-24 09:19:33.855 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:19:39 172.23.0.1 postgres-master[1738]: 2026-06-24 09:19:39.008 UTC [27] LOG:  checkpoint complete: wrote 52 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.132 s, sync=0.003 s, total=5.153 s; sync files=6, longest=0.002 s, average=0.001 s; distance=204 kB, estimate=204 kB
+Jun 24 09:24:33 172.23.0.1 postgres-master[1738]: 2026-06-24 09:24:33.107 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:24:36 172.23.0.1 postgres-master[1738]: 2026-06-24 09:24:36.443 UTC [27] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.315 s, sync=0.003 s, total=3.336 s; sync files=4, longest=0.002 s, average=0.001 s; distance=138 kB, estimate=197 kB
+Jun 24 09:29:33 172.23.0.1 postgres-master[1738]: 2026-06-24 09:29:33.543 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:29:37 172.23.0.1 postgres-master[1738]: 2026-06-24 09:29:37.194 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.617 s, sync=0.015 s, total=3.651 s; sync files=4, longest=0.012 s, average=0.004 s; distance=161 kB, estimate=194 kB
+Jun 24 09:34:33 172.23.0.1 postgres-master[1738]: 2026-06-24 09:34:33.293 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:34:36 172.23.0.1 postgres-master[1738]: 2026-06-24 09:34:36.942 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.616 s, sync=0.015 s, total=3.650 s; sync files=4, longest=0.012 s, average=0.004 s; distance=170 kB, estimate=191 kB
+Jun 24 09:39:34 172.23.0.1 postgres-master[1738]: 2026-06-24 09:39:34.042 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:39:37 172.23.0.1 postgres-master[1738]: 2026-06-24 09:39:37.690 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.615 s, sync=0.015 s, total=3.648 s; sync files=4, longest=0.012 s, average=0.004 s; distance=179 kB, estimate=190 kB
+Jun 24 09:44:34 172.23.0.1 postgres-master[1738]: 2026-06-24 09:44:34.791 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:44:38 172.23.0.1 postgres-master[1738]: 2026-06-24 09:44:38.438 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.615 s, sync=0.015 s, total=3.648 s; sync files=4, longest=0.013 s, average=0.004 s; distance=188 kB, estimate=190 kB
+Jun 24 09:49:34 172.23.0.1 postgres-master[1738]: 2026-06-24 09:49:34.517 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:49:39 172.23.0.1 postgres-master[1738]: 2026-06-24 09:49:39.247 UTC [27] LOG:  checkpoint complete: wrote 48 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.719 s, sync=0.003 s, total=4.731 s; sync files=6, longest=0.002 s, average=0.001 s; distance=261 kB, estimate=261 kB
+Jun 24 09:54:34 172.23.0.1 postgres-master[1738]: 2026-06-24 09:54:34.347 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:54:37 172.23.0.1 postgres-master[1738]: 2026-06-24 09:54:37.978 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.616 s, sync=0.010 s, total=3.631 s; sync files=4, longest=0.006 s, average=0.003 s; distance=197 kB, estimate=255 kB
+Jun 24 09:59:35 172.23.0.1 postgres-master[1738]: 2026-06-24 09:59:35.078 UTC [27] LOG:  checkpoint starting: time
+Jun 24 09:59:38 172.23.0.1 postgres-master[1738]: 2026-06-24 09:59:38.717 UTC [27] LOG:  checkpoint complete: wrote 38 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.619 s, sync=0.003 s, total=3.640 s; sync files=4, longest=0.002 s, average=0.001 s; distance=206 kB, estimate=250 kB
+Jun 24 10:04:35 172.23.0.1 postgres-master[1738]: 2026-06-24 10:04:35.816 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:04:39 172.23.0.1 postgres-master[1738]: 2026-06-24 10:04:39.350 UTC [27] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.515 s, sync=0.002 s, total=3.535 s; sync files=4, longest=0.001 s, average=0.001 s; distance=210 kB, estimate=246 kB
+Jun 24 10:09:35 172.23.0.1 postgres-master[1738]: 2026-06-24 10:09:35.437 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:09:39 172.23.0.1 postgres-master[1738]: 2026-06-24 10:09:39.274 UTC [27] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.817 s, sync=0.003 s, total=3.838 s; sync files=5, longest=0.002 s, average=0.001 s; distance=228 kB, estimate=244 kB
+Jun 24 10:14:35 172.23.0.1 postgres-master[1738]: 2026-06-24 10:14:35.356 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:14:38 172.23.0.1 postgres-master[1738]: 2026-06-24 10:14:38.992 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.616 s, sync=0.015 s, total=3.637 s; sync files=5, longest=0.011 s, average=0.003 s; distance=231 kB, estimate=243 kB
+Jun 24 10:19:36 172.23.0.1 postgres-master[1738]: 2026-06-24 10:19:36.084 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:19:39 172.23.0.1 postgres-master[1738]: 2026-06-24 10:19:39.921 UTC [27] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.816 s, sync=0.016 s, total=3.837 s; sync files=5, longest=0.010 s, average=0.004 s; distance=246 kB, estimate=246 kB
+Jun 24 10:24:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:24:37.014 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:24:41 172.23.0.1 postgres-master[1738]: 2026-06-24 10:24:41.161 UTC [27] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.127 s, sync=0.003 s, total=4.147 s; sync files=5, longest=0.002 s, average=0.001 s; distance=262 kB, estimate=262 kB
+Jun 24 10:29:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:29:37.261 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:29:43 172.23.0.1 postgres-master[1738]: 2026-06-24 10:29:43.520 UTC [27] LOG:  checkpoint complete: wrote 63 buffers (0.4%); 0 WAL file(s) added, 0 removed, 0 recycled; write=6.228 s, sync=0.015 s, total=6.260 s; sync files=8, longest=0.012 s, average=0.002 s; distance=293 kB, estimate=293 kB
+Jun 24 10:34:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:34:37.621 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:34:41 172.23.0.1 postgres-master[1738]: 2026-06-24 10:34:41.861 UTC [27] LOG:  checkpoint complete: wrote 44 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.220 s, sync=0.015 s, total=4.241 s; sync files=6, longest=0.013 s, average=0.003 s; distance=264 kB, estimate=290 kB
+Jun 24 10:39:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:39:37.961 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:39:41 172.23.0.1 postgres-master[1738]: 2026-06-24 10:39:41.802 UTC [27] LOG:  checkpoint complete: wrote 39 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.817 s, sync=0.015 s, total=3.842 s; sync files=6, longest=0.012 s, average=0.003 s; distance=252 kB, estimate=286 kB
+Jun 24 10:44:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:44:37.838 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:44:41 172.23.0.1 postgres-master[1738]: 2026-06-24 10:44:41.790 UTC [27] LOG:  checkpoint complete: wrote 40 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.917 s, sync=0.016 s, total=3.952 s; sync files=6, longest=0.012 s, average=0.003 s; distance=260 kB, estimate=284 kB
+Jun 24 10:49:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:49:37.890 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:49:41 172.23.0.1 postgres-master[1738]: 2026-06-24 10:49:41.826 UTC [27] LOG:  checkpoint complete: wrote 40 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.916 s, sync=0.015 s, total=3.936 s; sync files=6, longest=0.011 s, average=0.003 s; distance=268 kB, estimate=282 kB
+Jun 24 10:54:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:54:37.925 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:54:42 172.23.0.1 postgres-master[1738]: 2026-06-24 10:54:42.161 UTC [27] LOG:  checkpoint complete: wrote 43 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.217 s, sync=0.015 s, total=4.237 s; sync files=6, longest=0.012 s, average=0.003 s; distance=294 kB, estimate=294 kB
+Jun 24 10:59:37 172.23.0.1 postgres-master[1738]: 2026-06-24 10:59:37.215 UTC [27] LOG:  checkpoint starting: time
+Jun 24 10:59:40 172.23.0.1 postgres-master[1738]: 2026-06-24 10:59:40.765 UTC [27] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 1 recycled; write=3.515 s, sync=0.016 s, total=3.551 s; sync files=5, longest=0.013 s, average=0.004 s; distance=255 kB, estimate=290 kB
+Jun 24 11:04:37 172.23.0.1 postgres-master[1738]: 2026-06-24 11:04:37.864 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:04:40 172.23.0.1 postgres-master[1738]: 2026-06-24 11:04:40.707 UTC [27] LOG:  checkpoint complete: wrote 29 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.812 s, sync=0.015 s, total=2.843 s; sync files=5, longest=0.013 s, average=0.003 s; distance=222 kB, estimate=283 kB
+Jun 24 11:09:37 172.23.0.1 postgres-master[1738]: 2026-06-24 11:09:37.784 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:09:39 172.23.0.1 postgres-master[1738]: 2026-06-24 11:09:39.927 UTC [27] LOG:  checkpoint complete: wrote 23 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.121 s, sync=0.004 s, total=2.144 s; sync files=7, longest=0.002 s, average=0.001 s; distance=161 kB, estimate=271 kB
+Jun 24 11:14:37 172.23.0.1 postgres-master[1738]: 2026-06-24 11:14:37.940 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:14:39 172.23.0.1 postgres-master[1738]: 2026-06-24 11:14:39.982 UTC [27] LOG:  checkpoint complete: wrote 21 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.010 s, sync=0.015 s, total=2.043 s; sync files=5, longest=0.012 s, average=0.003 s; distance=104 kB, estimate=254 kB
+Jun 24 11:19:38 172.23.0.1 postgres-master[1738]: 2026-06-24 11:19:38.078 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:19:41 172.23.0.1 postgres-master[1738]: 2026-06-24 11:19:41.726 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.615 s, sync=0.016 s, total=3.649 s; sync files=4, longest=0.012 s, average=0.004 s; distance=58 kB, estimate=234 kB
+Jun 24 11:24:38 172.23.0.1 postgres-master[1738]: 2026-06-24 11:24:38.826 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:24:42 172.23.0.1 postgres-master[1738]: 2026-06-24 11:24:42.470 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.613 s, sync=0.015 s, total=3.644 s; sync files=4, longest=0.011 s, average=0.004 s; distance=68 kB, estimate=218 kB
+Jun 24 11:29:38 172.23.0.1 postgres-master[1738]: 2026-06-24 11:29:38.565 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:29:41 172.23.0.1 postgres-master[1738]: 2026-06-24 11:29:41.993 UTC [27] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.410 s, sync=0.015 s, total=3.429 s; sync files=4, longest=0.014 s, average=0.004 s; distance=75 kB, estimate=204 kB
+Jun 24 11:34:39 172.23.0.1 postgres-master[1738]: 2026-06-24 11:34:39.087 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:34:42 172.23.0.1 postgres-master[1738]: 2026-06-24 11:34:42.633 UTC [27] LOG:  checkpoint complete: wrote 36 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.515 s, sync=0.015 s, total=3.546 s; sync files=4, longest=0.012 s, average=0.004 s; distance=92 kB, estimate=192 kB
+Jun 24 11:39:39 172.23.0.1 postgres-master[1738]: 2026-06-24 11:39:39.722 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:39:43 172.23.0.1 postgres-master[1738]: 2026-06-24 11:39:43.367 UTC [27] LOG:  checkpoint complete: wrote 37 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.613 s, sync=0.015 s, total=3.646 s; sync files=4, longest=0.013 s, average=0.004 s; distance=103 kB, estimate=183 kB
+Jun 24 11:44:39 172.23.0.1 postgres-master[1738]: 2026-06-24 11:44:39.465 UTC [27] LOG:  checkpoint starting: time
+Jun 24 11:44:43 172.23.0.1 postgres-master[1738]: 2026-06-24 11:44:43.112 UTC [27] LOG:  checkpoint complete: wrote 38 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.615 s, sync=0.015 s, total=3.648 s; sync files=4, longest=0.012 s, average=0.004 s; distance=112 kB, estimate=176 kB
