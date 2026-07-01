@@ -291,5 +291,4 @@ This project is intended for learning and demonstration purposes.
 ---
 
 ## Author
-
-Developed as a comprehensive DevOps infrastructure project demonstrating load balancing, replication, centralized logging, and monitoring.
+Himanshu Pujari
