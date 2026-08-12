@@ -1,10 +1,10 @@
-# DevOps Infrastructure Stack 🚀
+# DevOps Infrastructure Stack 
 
 A production-style DevOps infrastructure built with Docker Compose, featuring load balancing, database replication, centralized logging, and monitoring. The application is a Java-based visitor counter deployed on Apache Tomcat.
 
 ---
 
-## 📌 Project Overview
+# Project Overview
 
 This project demonstrates a complete DevOps ecosystem consisting of:
 
@@ -18,7 +18,7 @@ This project demonstrates a complete DevOps ecosystem consisting of:
 
 ---
 
-## 🏗 Architecture
+# Architecture
 
 ```
                     Client
@@ -61,9 +61,9 @@ HAProxy + Tomcat + Node Exporter
 
 ---
 
-# ⚙️ Components
+#  Components
 
-## Load Balancer
+##Load Balancer
 
 * **HAProxy 2.8**
 * Round-robin load balancing
@@ -73,7 +73,7 @@ HAProxy + Tomcat + Node Exporter
 
 ---
 
-## Application Layer
+# Application Layer
 
 Two Apache Tomcat 9 containers running a Java visitor counter application.
 
@@ -84,7 +84,7 @@ Two Apache Tomcat 9 containers running a Java visitor counter application.
 
 ---
 
-## Database Layer
+# Database Layer
 
 ### PostgreSQL 15
 
@@ -138,7 +138,7 @@ Grafana provides dashboards for visualization.
 
 ---
 
-# 🛠 Tech Stack
+#  Tech Stack
 
 | Component          | Technology           |
 | ------------------ | -------------------- |
@@ -154,7 +154,7 @@ Grafana provides dashboards for visualization.
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 Devops-project/
@@ -190,7 +190,7 @@ Devops-project/
 
 ---
 
-# ✨ Features
+#  Features
 
 * ✅ HAProxy load balancing
 * ✅ High availability architecture
@@ -205,7 +205,7 @@ Devops-project/
 
 ---
 
-# 🚀 Getting Started
+#  Getting Started
 
 ## Prerequisites
 
@@ -241,7 +241,7 @@ docker ps
 
 ---
 
-# 🌐 Access URLs
+#  Access URLs
 
 | Service         | URL                           |
 | --------------- | ----------------------------- |
@@ -254,7 +254,7 @@ docker ps
 
 ---
 
-# 📊 Monitoring Stack
+#  Monitoring Stack
 
 ```
 HAProxy Metrics
@@ -268,7 +268,7 @@ Node Exporter
 
 ---
 
-# 📝 Logging Stack
+#  Logging Stack
 
 ```
 Application Logs
@@ -284,7 +284,7 @@ Application Logs
 
 ---
 
-# 📜 License
+#  License
 
 This project is intended for learning and demonstration purposes.
 
